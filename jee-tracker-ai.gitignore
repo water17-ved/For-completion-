@@ -1,0 +1,13 @@
+# local test output / scratch
+tests/test-output/
+test-output/
+quizbank-build/questions.json
+quizbank-build/chapter_counts.json
+dataset/
+*.zip
+.DS_Store
+node_modules/
+__pycache__/
+# never commit secrets (the app keeps the Gemini key in the browser only)
+.env
+*.key
